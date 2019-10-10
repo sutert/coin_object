@@ -46,9 +46,14 @@
         // 4. Use a loop to flip the coin 20 times, each time displaying the result 
         // of the flip as a string on the page.  After your loop completes, return an array with 
         // the result of each flip.
-        for (let i = 0; i < results.length; i++) {
-            const element = array[i];
+        for (let i = 0; i <= 20; i++) {
+            if (this.state === 0) {
+               return "Heads"
+            } else {
+                 return "Tails"
+            }
             
+           console.log(results.push)
         }
     }
     function display20Images() {
